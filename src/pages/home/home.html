@@ -1,14 +1,22 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
-</ion-header>
-
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+	<ion-grid text-center>
+	  <ion-row >
+	    <ion-col>
+	      <ion-img width="100" height="100" src="assets/imgs/bcitem/{{mang[0]}}.png"></ion-img>
+	    </ion-col>
+	  </ion-row>
+	  <ion-row>
+	    <ion-col>
+	    </ion-col>
+	    <ion-col>
+	      <ion-img width="100" height="100" src="assets/imgs/bcitem/{{mang[1]}}.png"></ion-img>
+	    </ion-col>
+	    <ion-col>
+	      <ion-img width="100" height="100" src="assets/imgs/bcitem/{{mang[2]}}.png"></ion-img>
+	    </ion-col>
+	    <ion-col>
+	    </ion-col>
+	  </ion-row>
+	</ion-grid>
+	<button ion-button color="secondary" (click)="xoc();" full>Xóc</button>
 </ion-content>
