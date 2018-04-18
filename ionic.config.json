@@ -1,0 +1,8 @@
+{
+  "name": "baucua",
+  "app_id": "99f28b97",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
